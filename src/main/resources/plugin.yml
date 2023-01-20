@@ -1,0 +1,11 @@
+name: midas-hydrogen
+version: 0.1.0
+api-version: 1.19
+author: vanthanyx
+description: part of the MIDAS software line
+main: me.vanthanyx.midas.Hydrogen
+commands:
+  register:
+    description: Registers a player's UUID and name in the event registration database.
+    usage: /register
+    permission: midas-hydrogen.register
